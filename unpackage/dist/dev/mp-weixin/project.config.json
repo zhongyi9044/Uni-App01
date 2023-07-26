@@ -23,7 +23,31 @@
   "libVersion": "2.33.0",
   "appid": "wx8b45d4de343d37bd",
   "projectname": "uni-app01",
-  "condition": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "",
+          "path": "",
+          "query": "",
+          "id": 0
+        }
+      ]
+    }
+  },
   "editorSetting": {
     "tabIndent": "auto",
     "tabSize": 2
