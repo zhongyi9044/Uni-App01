@@ -41,13 +41,19 @@
           // "navigationBarTitleText": "",
           "enablePullDownRefresh": false
         }
+      }, {
+        "path": "search/search",
+        "style": {
+          // "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+        }
       }
     ]
   }],
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "艺购",
-    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarBackgroundColor": "#c00000",
     "backgroundColor": "#ff00ff",
     "app-plus": {
       "background": "#55ff7f"
