@@ -10,14 +10,15 @@
       "root": "subpkg",
       "pages": [
         "goods_detail/goods_detail",
-        "goods_list/goods_list"
+        "goods_list/goods_list",
+        "search/search"
       ]
     }
   ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "艺购",
-    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarBackgroundColor": "#c00000",
     "backgroundColor": "#ff00ff"
   },
   "tabBar": {

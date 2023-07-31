@@ -12,6 +12,8 @@
     "newFeature": true,
     "bigPackageSizeSupport": true,
     "checkSiteMap": false,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
