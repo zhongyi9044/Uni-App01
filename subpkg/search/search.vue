@@ -72,7 +72,7 @@
       gotoDetail_() {
         this.saveSearchResults()
         uni.navigateTo({
-          url: '/subpkg/goods_list/goods_list?name=' + this.keyWord
+          url: '/subpkg/goods_list/goods_list?query=' + this.keyWord
         })
       },
       gotoGoodsList(kw) {
