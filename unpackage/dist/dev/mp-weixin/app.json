@@ -50,5 +50,9 @@
       }
     ]
   },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "chooseAddress"
+  ],
   "usingComponents": {}
 }

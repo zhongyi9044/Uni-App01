@@ -57,7 +57,12 @@
       "ignoreDevUnusedFiles": false,
       "ignoreUploadUnusedFiles": false
     },
-    "usingComponents": true
+    "usingComponents": true,
+    "requiredPrivateInfos": [
+      "chooseLocation",
+      // "getLocation",
+      "chooseAddress"
+    ]
   },
   "vueVersion": "3"
 }
