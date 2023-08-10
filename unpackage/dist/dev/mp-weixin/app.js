@@ -27,11 +27,13 @@ common_vendor.$http.beforeRequest = function(options) {
   common_vendor.index.showLoading({
     title: "数据加载中..."
   });
-};
-common_vendor.$http.beforeRequest = function(options) {
-  common_vendor.index.showLoading({
-    title: "数据加载中..."
-  });
+  if (options.url.indexOf("/my/") !== -1) {
+    options.header = {
+      //因为获取不到token只能手动输入
+      // Authorization: store.state.m_user.token
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjIzLCJpYXQiOjE1NjQ3MzAwNzksImV4cCI6MTAwMTU2NDczMDA3OH0.YPt-XeLnjV-_1ITaXGY2FhxmCe4NvXuRnRB8OMCfnPo"
+    };
+  }
 };
 common_vendor.$http.afterRequest = function() {
   common_vendor.index.hideLoading();

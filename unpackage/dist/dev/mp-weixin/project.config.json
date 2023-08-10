@@ -22,7 +22,7 @@
     "condition": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.33.0",
+  "libVersion": "",
   "appid": "wx8b45d4de343d37bd",
   "projectname": "uni-app01",
   "condition": {
